@@ -1,0 +1,93 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar{
+    background-color: rgb(20, 180, 220) ;
+    top: -10px;
+
+}
+.navbar span{
+    color: white !important;
+
+}
+.navbar li a:hover{
+ text-decoration: underline;
+ color: white !important;
+}
+
+.internship-detail{
+    position: relative;
+    top: 120px;
+
+}
+
+.company-name{
+    text-align: center;
+    text-decoration: underline;
+    margin: 10px auto 20px auto;
+    color: rgb(20, 180, 220);
+
+}
+
+.about-company{
+     text-align: center;
+     margin: 20px auto;
+}
+
+.what-i-did{
+    color: rgb(20, 180, 220);
+    text-align: center;
+    margin: 20px auto;
+}
+
+.about-internship{
+    margin-left: 40px;
+    text-align:start;
+    font-family: 'Courgette', cursive;
+}
+
+.about-internship .exposure{
+    font-family: 'Patua One', cursive ;
+margin: 10px auto;
+
+}
+.webpage{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.webpage img {
+       height: 400px;
+    width: 600px;
+    object-fit: contain;;
+}
+
+ .webpage a{
+    display: inline-block;
+    background: rgb(20, 180, 220);
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid rgb(20, 180, 220);
+    transition: all 0.3s ease;
+}
+ .webpage a:hover{
+    color: rgb(20, 180, 220);
+    background: none;
+}
+
+/* responsive media query  */
+@media (max-width: 1104px) {
+    .webpage img{
+        height: 300px;
+        width: 350px;
+    }
+}
